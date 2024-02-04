@@ -1,2 +1,2 @@
-# MART341-WebDesign
+# Katie Miller WebDesignHomework
 Repository for my Intro to Web Design Development Homework
