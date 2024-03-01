@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Outlaw Pass</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="this page contains the main details for Outlaw Pass Family Fun Center">
+        <meta name="author" content="Katie Miller">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            body 
+                {background-color: rgb(241, 255, 253)}
+                h1 {color:rgb(166, 67, 67)}
+                h2 {color: rgb(166, 67, 67)}
+            table 
+                { border: 2px solid rgb(166, 67, 67)} 
+        </style>    
+    </head>
+    <body>
+        <br />
+        <img src="./images/Outlaw Pass Logo.jpeg" width="500" height="100" alt="Outlaw Pass Family Fun Center Logo" title="Outlaw Pass Logo">
+        <h1>Hours of Operation</h1>
+        <p>
+            <table width="500" cellpadding="5">
+                <tr>
+                    <th></th>
+                    <th Scope="col" align="left">Summer</th>
+                    <th scope="col" align="left">Winter</th>
+                </tr>
+                <tr>
+                    <th>Monday</th>
+                    <td>Closed</td>
+                    <td>Closed</td>
+                </tr>
+                <tr>
+                    <th>Tuesday</th>
+                    <td>11:00am - 10:00pm</td>
+                    <td>Closed</td>
+                </tr>
+                <tr>
+                    <th>Wednesday</th>
+                    <td>11:00am - 10:00pm</td>
+                    <td>3:00pm - 8:00pm</td>
+                </tr>
+                <tr>
+                    <th>Thursday</th>
+                    <td>11:00am - 10:00pm</td>
+                    <td>3:00pm - 8:00pm</td>   
+                </tr>
+                <tr>
+                    <th>Friday</th>
+                    <td>11:00am - 11:00pm</td>
+                    <td>3:00pm - 11:00pm</td>
+                </tr>
+                <tr>
+                    <th>Saturday</th>
+                    <td>10:00am - 11:00pm</td>
+                    <td>10:00am - 11:00pm</td>
+                </tr>
+                <tr>
+                    <th>Sunday</th>
+                    <td>1:00pm - 8:00pm</td>
+                    <td>1:00pm - 8:00pm</td>
+                </tr>
+            </table>
+        </p>
+        <h2>Have your next party with us! Fill out the form below!</h3>
+        <p> 
+        <form method="post" action="index.html" id="party-reservations" class="basic-forms">
+            Name:
+            <input type="text" id="name" placeholder="enter your full name">
+            <br />
+            Phone number:
+            <input type="text" id="number" placeholder="000-000-0000"/>
+            <br />
+            Email:
+            <input type="text" id="email" placeholder="enter your email here"/>
+            <p>Type of Reservation:</p>
+            <input type="radio" name="reservation-type" value="birthday" checked/> Birthday Party
+            <input type="radio" name="reservation-type" value="grades"/> Honor Roll party 
+            <input type="radio" name="reservation-type" value="moving"/> Going Away Party 
+            <input type="radio" name="reservation-type" value="graduation"/> Graduation 
+            <p>Number of Adults:</p>
+            <input type="checkbox" name="adults-coming" value="0-5"/> 0 - 5
+            <input type="checkbox" name="adults-coming" value="6-10"/> 6 - 10
+            <input type="checkbox" name="adults-coming" value="11-15"/> 11 - 15
+            <input type="checkbox" name="adults-coming" value="16+"/> 16+
+            <input type="textbox" name="adults-coming" placeholder="Specificy how many adults"/>
+            <p>Number of Kids:</p>
+            <input type="checkbox" name="kids-coming" value="0-5"/> 0 - 5
+            <input type="checkbox" name="kids-coming" value="6-10"/> 6 - 10
+            <input type="checkbox" name="kids-coming" value="11-15"/> 11 - 15
+            <input type="checkbox" name="kids-coming" value="16+"/> 16+
+            <input type="textbox" name="kids-coming" placeholder="Specificy how many kids"/>
+            <p>Attractions Interested in Reserving:</p>
+            <input type="checkbox" name="attraction" value="golf"/> Adventure Golf
+            <input type="checkbox" name="attraction" value="karts"/> Go Karts
+            <input type="checkbox" name="attraction" value="mine"/> Mining Sluice
+            <input type="checkbox" name="attraction" value="bungee"/> Euro-Bungee
+            <br />
+            <br />
+            <input type="checkbox" name="attraction" value="wheel"/> Ferris Wheel
+            <input type="checkbox" name="attraction" value="wave"/> Shockwave
+            <input type="checkbox" name="attraction" value="tornado"/> Texas Tornado
+            <input type="checkbox" name="attraction" value="coaster"/> Rio Coaster
+            <br />
+            <br />
+            <input type="checkbox" name="attraction" value="hopper"/> Frog Hopper
+            <input type="checkbox" name="attraction" value="games"/> Arcade Games
+            <input type="checkbox" name="attraction" value="all"/> All Attractions Package
+            <br />
+            <p>Interested in food & snack packages?</p>
+            Yes <input type="radio" name="contact" value="yes"/> 
+            No <input type="radio" name="contact" value="no"/>
+            <p> Additional information on your party:</p>
+            <textarea name="information" id="information" rows="10" col="30"> Any additional information</textarea>
+            <br />
+            <br />
+            May we contact you by phone?
+            Yes <input type="radio" name="contact" value="yes"/> 
+            No <input type="radio" name="contact" value="no"/>
+            <br />
+            <input type="submit" id="reservation-inquiry" value="SUBMIT"/>
+        </form>    
+        </p>    
+    </body>
+</html>
