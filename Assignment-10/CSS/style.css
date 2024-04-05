@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.main-container {
+    /*Make a border around everything*/
+    border-style: solid;
+    border-width: 8px;
+    border-color: teal;
+    padding: 20px; 
+    background: cornsilk;
+    margin: auto;
+    width: 75%;
+    opacity: 0.8;
+}
+
+div.align {
+    /*make all text in the divs center into the main container*/
+    text-align: center;
+}
+
+.secondary-container {
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+    border-bottom: 5px darkgray dotted
+}
+
+#Heading {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    /*match heading to border color*/
+    color: teal;
+    opacity: .80;
+}
