@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Black.ttf) format('truetype');
+    font-style: 'normal';
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Bold.ttf) format('truetype');
+    font-style: 'bold';
+}
+
+@font-face {
+    font-family: 'BungeeShade';
+    src: url(../fonts/BungeeShade-Regular.ttf) format('truetype');
+    font-style: 'normal';
+
+}
+
+@font-face {
+    font-family: 'NovaSquare';
+    src: url(../fonts/NovaSquare-Regular.ttf) format ('truettype');
+    font-style: 'normal'
+}
