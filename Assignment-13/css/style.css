@@ -1,0 +1,300 @@
+body {
+    background-color: rgb(255, 255, 236);
+    font-family: NovaSquare;
+    font-style: normal;
+}
+
+header {
+    position: fixed;
+    background-color: black;
+    color: black;
+    text-align: left;
+    height: 2.5em;
+    width: 100%;
+    font-family: NovaSquare;
+    font-size: 16pt;
+    height: 3em;
+}
+
+.menu {
+    display: inline-block;
+    text-align: center;
+    padding: 5pt;
+    margin: 0.8em;
+}
+
+.menu a {
+    color: rgb(112, 191, 239);
+    text-decoration: none;
+}
+
+.menu:hover {
+    background-color: rgb(251, 246, 246);
+}
+
+.dropdown {
+    display: inline-block;
+    min-width: 10px;
+    background-color: black;
+    text-align: left;
+    padding: 10pt;
+}
+
+.dropdown a {
+    color: rgb(112, 191, 239);
+    text-decoration: none;
+}
+
+.dropdown:hover {
+    background-color: rgb(251, 246, 246);
+    padding:5pt;
+    margin: 0.8em;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    border: 2px dotted rgb(251, 246, 246);
+    margin: 1px;
+    margin-top: 5pt;
+    z-index: 2;
+    padding: 10px;
+    color: rgb(112, 191, 239);
+}
+
+.content a {
+    color: rgb(251, 246, 246);
+}
+
+.dropdown:hover .content {
+    display: block;
+    background-color: black;
+}
+
+.item {
+    display: block;
+    color: rgb(112, 191, 239);
+    text-align: center;
+    padding: 5px;
+}
+
+.item:hover, .item:hover a {
+    color: rgb(112, 191, 239);
+    background-color: grey;
+}
+
+.pro1 {
+    height: 150px;
+    width:28%;
+    background-color: lightcyan;
+    border-radius: 30%;
+    margin: 0.5em;
+    margin-top: 2em;
+    padding: 30px;
+    padding-top: 0px;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .pro1 {
+        float: left;
+        width: 28%;
+    }
+}
+
+.con1 {
+    height: 150px;
+    width:28%;
+    background-color: lightcyan;
+    border-radius: 30%;
+    margin: 3em;
+    margin-top: -12em;
+    margin-right: 26em;
+    padding: 30px;
+    padding-top: 0px;
+    overflow: scroll;
+    float: right;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .con1 {
+        margin-right: 2em;
+        margin-top: 2em;
+    }
+}
+
+.pro2 {
+    height: 150px;
+    width:28%;
+    background-color: lightcyan;
+    border-radius: 30%;
+    margin: 0.5em;
+    margin-top: 2em;
+    padding: 30px;
+    padding-top: 0px;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .pro2 {
+        float: left;
+        width: 28%;
+    }
+}
+
+.con2 {
+    height: 150px;
+    width:28%;
+    background-color: lightcyan;
+    border-radius: 30%;
+    margin: 3em;
+    margin-top: -12em;
+    margin-right: 2em;
+    padding: 30px;
+    padding-top: 0px;
+    overflow: scroll;
+    float: right;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .con2 {
+        margin-right: 2em;
+        margin-top: 2em;
+    }
+}
+
+.inflatable {
+    float: right;
+    width: 400px;
+}
+
+.solid {
+    float: left;
+    width:350px;
+    padding: 20px;
+    margin-bottom: 2em;
+}
+
+.personal {
+    float: right;
+    width: 450px;
+    height: 450px;
+}
+
+.form {
+    margin-left: 13em;
+}
+
+.maintenance {
+    width: 80%;
+    height: 60%;
+    margin-left: 7em;
+}
+
+.soon {
+    text-align: center;
+    padding: 1em;
+}
+
+.links {
+    color: rgb(59, 164, 228);
+    text-decoration: underline;
+}
+
+.p {
+    height: 150px;
+    width:90%;
+    background-color: lightcyan;
+    border-radius: 5%;
+    margin: 2em;
+    padding: 12px;
+    overflow: scroll;
+    border: 1px dotted black;
+}
+
+.home {
+    float: right;
+    width: 400px;
+    height: 240px;
+    padding-left: 10px;
+}
+
+.opener {
+    font-size: 16px;
+    padding: 10px;
+    padding-top: 1em;
+}
+
+.second {
+    padding: 10px;
+    padding-top: 4em;
+}
+
+.first {
+    width: 400px;
+    height: 220px;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+.third {
+    padding-top: 30px;
+    padding:15px;
+    margin-top: 3em;
+}
+
+.modern {
+    float: right;
+    width: 400px;
+    height: 220px;
+    margin-left: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .home {
+        float: right;
+        content: url(../images/home.jpg);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .first {
+        float: left;
+        content: url(../images/first.webp);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .modern {
+        float: right;
+        content: url(../images/modern.jpg);
+    }
+}
+
+
+@media screen and (max-width:1000px)
+{
+    .description {
+        float: left;
+    }
+}
+
+@media screen and (max-width:1000px)
+{
+    .head {
+        float: left;
+        margin-top: 10em;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .inflatable {
+        float: right;
+        content: url(../images/inflatable.jpeg);
+    }
+}
